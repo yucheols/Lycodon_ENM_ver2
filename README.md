@@ -8,4 +8,7 @@ MaxEnt ecological niche modeling workflow in R to assess habitat suitability of 
 - In the Republic of Korea (South Korea)
 
 
+## Associated Publication
+A research article associated with this project will be published in the March 2024 issue of Herpetologica.
+
 
