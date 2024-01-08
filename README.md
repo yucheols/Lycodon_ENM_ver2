@@ -12,7 +12,9 @@ MaxEnt ecological niche modeling workflow in R to assess habitat suitability of 
 - We then assessed the habitat suitability of L. rufozonatus in Jeju using ecological niche modeling. The code and dataset are provided here to reproduce the results of niche modeling.
 
 ## Dataset
-
+- The "occs.zip" file contains the raw and spatially rarefied occurrence points (15km thinning distance) of L. rufozoantus.
+- The "bg.zip" file contains two sets of background points for MaxEnt modeling at two different spatial scales.
+- The environmental data layers can be obtained and processed using the details provided in the paper (see below for citation).
 
 ## Citation
 A research article associated with this project will be published in the March 2024 issue of Herpetologica.
