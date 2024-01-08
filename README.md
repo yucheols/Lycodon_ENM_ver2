@@ -9,7 +9,7 @@ MaxEnt ecological niche modeling workflow in R to assess habitat suitability of 
 - However, this species was well-known to be absent from the largest island of the country: Jeju. This was established by more than three decades of field surveys across South Korea.
 - In July 2021, we found a roadkill of L. rufozonatus while conducting field surveys in Seogwipo, Jeju Island.
 - As it was unlikely that this specimen represented a previously unknown island population, we determined its potential geographic origin through phylogenetic analyses of the mitochondrial COI and Cytb genes.
-- We then assessed the habitat suitability of L. rufozonatus in Jeju using ecological niche modeling. The code and dataset provided here were used for this latter part of the analyses.
+- We then assessed the habitat suitability of L. rufozonatus in Jeju using ecological niche modeling. The code and dataset are provided here to reproduce the results of niche modeling.
 
 ## Dataset
 
