@@ -4,9 +4,6 @@ Sys.getlocale()
 Sys.setlocale("LC_CTYPE", ".1251")
 Sys.getlocale()
 
-## prevent Java memory error == RUN THIS FIRST!!
-options(java.parameters = "-Xmx1024m")
-
 ## load libraries
 library(terra)
 library(raster)
