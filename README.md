@@ -3,6 +3,9 @@ A MaxEnt ecological niche modeling workflow in R to assess habitat suitability o
 
 ![cover](https://github.com/yucheols/Lycodon_ENM_ver2/assets/85914125/06b06949-4ca1-4504-a7c8-0a56e2cf880f)
 
+![Fig4](https://github.com/yucheols/Lycodon_ENM_ver2/assets/85914125/3deff1f3-70c3-46c3-ae22-ace96ef00b84)
+
+
 ## Study background
 - The Red-banded Snake (Lycodon rufozonatus) is a colubrid with broad geographic distribution across East and Southeast Asia.
 - In the Republic of Korea (South Korea), this species is commonly found across the mainland as well as some islands.
