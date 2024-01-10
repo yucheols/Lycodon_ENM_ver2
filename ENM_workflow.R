@@ -23,7 +23,7 @@ windowsFonts(a = windowsFont(family = 'Times New Roman'))
 ####################################################  Broad scale model
 #####  PART 1 ::: environmental data  #####
 # set clipping extent
-ext <- ext <- c(100, 132, 18, 42)
+ext <- c(100, 132, 18, 42)
 
 # clim
 clim <- raster::stack(list.files(path = 'E:/env layers/worldclim', pattern = '.tif$', full.names = T))
