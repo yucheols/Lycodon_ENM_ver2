@@ -1,6 +1,7 @@
 # ENMs in R hands-on practical session
 #### Yucheol Shin 
 Feb dd 2024
+@ Laboratory of Animal Behaviour and Conservation, Nanjing Forestry University
 
 In the paper, the modeling was done at two different spatial scales ("Broad" and "Narrow"). In this hands-on session, we will focus on the broad-scale modeling to illustrate the basic organization of the ENM workflow.
 
