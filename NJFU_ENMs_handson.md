@@ -9,6 +9,8 @@ In the paper, the modeling was done at two different spatial scales ("Broad" and
 Presence-background ENM algorithms require the presence and background datasets, as well as environmental predictors, as inputs. The most popular algorithm out there would be MaxEnt, and it is the algorithm used here as well. Below is a very basic illustration of how the presence-background ENMs work. We will keep this workflow and its key steps in mind as we navigate the codes.   
 
 ## 2. Set up the working directory
+Before diving in, we need to setup an environment to run the codes.
+
 1) First, make sure to have both R and RStudio installed in your laptop.
 2) Open R studio and navigate to "File > New Project"
 3) Select "New Directory > New Project"
