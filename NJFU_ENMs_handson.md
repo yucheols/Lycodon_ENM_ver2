@@ -5,7 +5,7 @@ Feb dd 2024
 
 In the paper, the modeling was done at two different spatial scales ("Broad" and "Narrow"). In this hands-on session, we will focus on the broad-scale modeling to illustrate the basic organization of the ENM workflow.
 
-## 1. Before we start: A basic workflow of presence-background ENMs
+## 1. Before we start: A (very) basic workflow of presence-background ENMs
 
 ## 2. Set up the working directory
 1) First, make sure to have both R and RStudio installed in your laptop.
