@@ -46,6 +46,8 @@ dir.create('climate')
 dir.create('topo')
 dir.create('land')
 ```
+In the "climate" directory we will put climate rasters, in the "topo" directory we will put topographical variables (e.g. slope, elevation), and in the "land" directory we will put land cover/vegetation variables. 
+
 
 ```r
 #####  PART 1 ::: environmental data  #####
