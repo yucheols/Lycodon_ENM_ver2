@@ -78,3 +78,42 @@ land <- raster::stack(subset(land, c('cultivated', 'herb', 'shrubs', 'forest_mer
 land <- raster::crop(land, ext)
 names(land) = c('cultivated', 'herb', 'shrubs', 'forest')
 ```
+
+## 4. Background data sampling
+
+## 5. Variable selection
+
+## 6. Model tuning and optimal model selection
+
+## 7. Response curves
+With SDMtune you can get a response curve for each variable using the "plotResponse()" function. But you may wish to further customize the plot for better visualization or publication. For that we can actually extract the data used to build response curves and customize the plot using ggplot2.
+
+To pull out the data though, we need to make a little work around because "plotResponse()" will automatically print out a finished plot. We can use this little wrapper function I've made to extract data:
+
+```r
+respDataPull <- function(model, var, type, only_presence, marginal, species_name) {
+  
+  plotdata.list <- list()
+  
+  for (i in 1:length(var)) {
+    plotdata <- plotResponse(model = model, var = var[[i]], type = type, only_presence = only_presence, marginal = marginal)
+    plotdata <- ggplot2::ggplot_build(plotdata)$data
+    plotdata <- plotdata[[1]]
+    
+    plotdata <- plotdata[, c(1,2)]
+    plotdata$species <- species_name
+    plotdata$var <- var[[i]]
+    
+    plotdata.list[[i]] <- plotdata
+  }
+  plotdata.df <- dplyr::bind_rows(plotdata.list)
+  return(plotdata.df)
+}
+
+# pull data
+broad.resp.data <- respDataPull(model = tune@models[[6]], 
+                                var = c('bio1', 'bio12', 'bio14', 'bio3', 'bio5', 'cultivated', 'herb', 'shrub', 'slope'),
+                                type = 'cloglog', only_presence = T, marginal = T, species_name = 'Lycodon')
+
+print(broad.resp.data)
+```
