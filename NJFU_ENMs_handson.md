@@ -109,7 +109,11 @@ respDataPull <- function(model, var, type, only_presence, marginal, species_name
   plotdata.df <- dplyr::bind_rows(plotdata.list)
   return(plotdata.df)
 }
+```
 
+Basically, what this function does, is that it loops over the number of input variables, extract plot data, and merge them into a data frame for customization in ggplot2.
+
+```r
 # pull data
 broad.resp.data <- respDataPull(model = tune@models[[6]], 
                                 var = c('bio1', 'bio12', 'bio14', 'bio3', 'bio5', 'cultivated', 'herb', 'shrub', 'slope'),
@@ -117,8 +121,6 @@ broad.resp.data <- respDataPull(model = tune@models[[6]],
 
 print(broad.resp.data)
 ```
-
-Basically, what this function does, is that it loops over the number of input variables, extract plot data, and merge them into a data frame for customization in ggplot2.
 
 ## 8. Model extrapolation
 This is the part that was not done in the paper. But here we will project the fitted model to the environmental conditions of California. This is an ecologically meaningless exercise because A) L. rufozonatus is very unlikely to actually arrive in California, and B) environmental conditions of California is very different from that of East and Southeast Asia. But we will try this nonetheless to illustrate the risk of model transfer.
