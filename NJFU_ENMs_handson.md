@@ -8,6 +8,11 @@ In the paper, the modeling was done at two different spatial scales ("Broad" and
 ## 1. Before we start: A basic workflow of presence-background ENMs
 
 ## 2. Set up the working directory
+1) First, make sure to have both R and RStudio installed in your laptop.
+2) Open R studio and navigate to "File > New Project"
+3) Select "New Directory > New Project"
+4) Set the project name to "NJFU_ENMs_Workshop_2024"
+5) Now you will be working within this directory for this workshop. 
 
 
 ## 3. Load the packages
