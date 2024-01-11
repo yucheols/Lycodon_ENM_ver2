@@ -4,7 +4,7 @@ Feb dd 2024
 
 ##1. Set up the working directory
 
-'''r
+```r
 library(terra)
 library(raster)
 library(dplyr)
@@ -13,4 +13,4 @@ library(ENMeval)
 library(extrafont)
 library(rasterVis)
 library(ggplot2)
-'''
+```
