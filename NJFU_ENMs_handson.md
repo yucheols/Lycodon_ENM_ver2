@@ -117,3 +117,5 @@ broad.resp.data <- respDataPull(model = tune@models[[6]],
 
 print(broad.resp.data)
 ```
+
+Basically, what this function does, is that it loops over the number of input variables, extract plot data, and merge them into a data frame for customization in ggplot2.
