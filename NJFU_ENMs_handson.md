@@ -38,4 +38,34 @@ library(rasterVis)
 library(ggplot2)
 ```
 
-Also, prepare some basic data. 
+Now, we load and prepare the environmrntal predictors.
+
+```r
+#####  PART 1 ::: environmental data  #####
+# set clipping extent
+ext <- c(100, 132, 18, 42)
+
+# clim
+clim <- raster::stack(list.files(path = 'E:/env layers/worldclim', pattern = '.tif$', full.names = T))
+clim <- raster::crop(clim, ext)
+plot(clim[[1]])
+
+names(clim) = c('bio1','bio10','bio11','bio12','bio13','bio14','bio15',
+                'bio16','bio17','bio18','bio19','bio2','bio3','bio4',
+                'bio5','bio6','bio7','bio8','bio9')
+
+# elev 
+elev <- raster('E:/env layers/elev_worldclim/wc2.1_30s_elev.tif')
+elev <- raster::crop(elev, ext)
+names(elev) = 'elev'
+
+# slope == created from the elev layer cropped above
+slope <- raster('slope/slope.tif')
+plot(slope)
+
+# land cover
+land <- raster::stack(list.files(path = 'E:/env layers/land cover', pattern = '.tif', full.names = T))
+land <- raster::stack(subset(land, c('cultivated', 'herb', 'shrubs', 'forest_merged')))
+land <- raster::crop(land, ext)
+names(land) = c('cultivated', 'herb', 'shrubs', 'forest')
+```
