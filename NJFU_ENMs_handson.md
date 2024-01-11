@@ -20,7 +20,7 @@ Before diving in, we need to setup an environment to run the codes.
 5) Now you will be working within this directory for this workshop. 
 
 
-## 3. Load the packages
+## 3. Load packages and prepare data
 The terra and raster packages are for raster data handling in R, dplyr is for data frame manipulation and filtering, SDMtune is used for core model fitting and predictions, 
 ENMeval is used to generate spatial blocks, and extrafont, rasterVis and ggplot2 packages are used for plotting model outputs in R.
 
