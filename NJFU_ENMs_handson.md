@@ -6,7 +6,9 @@ Feb dd 2024
 In the paper, the modeling was done at two different spatial scales ("Broad" and "Narrow"). In this hands-on session, we will focus on the broad-scale modeling to illustrate the basic organization of the ENM workflow.
 
 ## 1. Before we start: A (very) basic workflow of presence-background ENMs
-Presence-background ENM algorithms require the presence and background datasets, as well as environmental predictors, as inputs. The most popular algorithm out there would be MaxEnt, and it is the algorithm used here as well. Below is a very basic illustration of how the presence-background ENMs work. We will keep this workflow and its key steps in mind as we navigate the codes.   
+Presence-background ENM algorithms require the presence and background datasets, as well as environmental predictors, as inputs. The most popular algorithm out there would be MaxEnt, and it is the algorithm used here as well. Below is a very basic illustration of how the presence-background ENMs work. We will keep this workflow and its key steps in mind as we navigate the codes.  
+
+[PUT ILLUSTRATION HERE]
 
 ## 2. Set up the working directory
 Before diving in, we need to setup an environment to run the codes.
