@@ -5,7 +5,9 @@ Feb dd 2024
 
 In the paper, the modeling was done at two different spatial scales ("Broad" and "Narrow"). In this hands-on session, we will focus on the broad-scale modeling to illustrate the basic organization of the ENM workflow.
 
-## 1. Before we start: A (very) basic workflow of presence-background ENMs
+## 1. Before we start: Why run ENMs in R?
+
+## 2. A (very) basic workflow of presence-background ENMs
 Presence-background ENM algorithms require the presence and background datasets, as well as environmental predictors, as inputs. Probably the most popular algorithm out there is MaxEnt, and it is the algorithm used here as well. Below is a very basic illustration of how the presence-background ENMs work. We will keep this workflow and its key steps in mind as we navigate the codes.  
 
 ![ENM_workflow](https://github.com/yucheols/Lycodon_ENM_ver2/assets/85914125/4afb2c4c-7576-4f1c-9bd3-ffc2a44863c3)
@@ -25,7 +27,7 @@ Below are some of the basic input data types for presence-background ENMs.
 5) Land cover: Can be obtained from public databases such as EarthEnv.
 6) Other: you may also consider solar radiation, potential evaporation, soil chemistry, distance to a certain environmental feature etc. These layers can either be obtained from public DBs or you can make them in GIS.
 
-## 2. Set up the working directory
+## 3. Set up the working directory
 Before diving in, we need to setup an environment to run the codes.
 
 1) First, make sure to have both R and RStudio installed in your laptop.
@@ -35,7 +37,7 @@ Before diving in, we need to setup an environment to run the codes.
 5) Now you will be working within this directory for this workshop. 
 
 
-## 3. Load packages and prepare data
+## 4. Load packages and prepare data
 The terra and raster packages are for raster data handling in R, dplyr is for data frame manipulation and filtering, SDMtune is used for core model fitting and predictions, 
 ENMeval is used to generate spatial blocks, and extrafont, rasterVis and ggplot2 packages are used for plotting model outputs in R.
 
@@ -94,15 +96,15 @@ land <- raster::crop(land, ext)
 names(land) = c('cultivated', 'herb', 'shrubs', 'forest')
 ```
 
-## 4. Background data sampling
+## 5. Background data sampling
 
-## 5. Variable selection
+## 6. Variable selection
 
-## 6. Data partitioning for model evaluation
+## 7. Data partitioning for model evaluation
 
-## 7. Model tuning and optimal model selection
+## 8. Model tuning and optimal model selection
 
-## 8. Response curves
+## 9. Response curves
 With SDMtune you can get a response curve for each variable using the "plotResponse()" function. But you may wish to further customize the plot for better visualization or publication. For that we can actually extract the data used to build response curves and customize the plot using ggplot2.
 
 To pull out the data though, we need to make a little work around because "plotResponse()" will automatically print out a finished plot. We can use this little wrapper function I've made (called "respDataPull()") to extract response data:
@@ -139,7 +141,7 @@ broad.resp.data <- respDataPull(model = tune@models[[6]],
 print(broad.resp.data)
 ```
 
-## 9. Model prediction
+## 10. Model prediction
 
 ## n. Model extrapolation
 This is the part that was not done in the paper. But here we will project the fitted model to the environmental conditions of California. This is an ecologically meaningless exercise because A) L. rufozonatus is very unlikely to actually arrive in California, and B) environmental conditions of California is very different from that of East and Southeast Asia. But we will try this nonetheless to illustrate the risk of model transfer.
