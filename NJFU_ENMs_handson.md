@@ -11,7 +11,14 @@ Presence-background ENM algorithms require the presence and background datasets,
 [PUT ILLUSTRATION HERE]
 
 #### An overview of data types and sources
-1) Species occurrence data
+Below are some of the basic input data types for presence-background ENMs.
+
+1) Species occurrence data: Can be obtained through public databases such as GBIF and VertNet, as well as personal/institutional survey records.
+2) Background points: Can be sampled using R or GIS.
+3) Climate: Can be obtained from public databases such as WordClim, CHELSA, ENVIREM, etc. Or you can make your own layers in GIS using climate data.
+4) Topography: Can be obtained from public databases, but can also be made in GIS (e.g. slope).
+5) Land cover: Can be obtained from public databases such as EarthEnv.
+6) Other: you may also consider solar radiation, potential evaporation, soil chemistry, distance to a certain environmental feature etc. These layers can either be obtained from public DBs or you can make them in GIS.
 
 ## 2. Set up the working directory
 Before diving in, we need to setup an environment to run the codes.
