@@ -10,6 +10,7 @@ Presence-background ENM algorithms require the presence and background datasets,
 
 ![ENM_workflow](https://github.com/yucheols/Lycodon_ENM_ver2/assets/85914125/4afb2c4c-7576-4f1c-9bd3-ffc2a44863c3)
 
+Of course, this is an oversimplification of the whole process, and I'm sure there are multiple ways to visualize it. But at least these are the broad steps I think about as I run ENMs in R. There are multiple steps involved and it is easy to lose track in the codes, especially if you are just learning R and ENMs. So it always helps to have a simplified workflow. 
 
 #### An overview of data types and sources
 Below are some of the basic input data types for presence-background ENMs.
