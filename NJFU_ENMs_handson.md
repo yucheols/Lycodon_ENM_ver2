@@ -93,9 +93,11 @@ names(land) = c('cultivated', 'herb', 'shrubs', 'forest')
 
 ## 5. Variable selection
 
-## 6. Model tuning and optimal model selection
+## 6. Data partitioning for model evaluation
 
-## 7. Response curves
+## 7. Model tuning and optimal model selection
+
+## 8. Response curves
 With SDMtune you can get a response curve for each variable using the "plotResponse()" function. But you may wish to further customize the plot for better visualization or publication. For that we can actually extract the data used to build response curves and customize the plot using ggplot2.
 
 To pull out the data though, we need to make a little work around because "plotResponse()" will automatically print out a finished plot. We can use this little wrapper function I've made (called "respDataPull") to extract data:
@@ -132,6 +134,8 @@ broad.resp.data <- respDataPull(model = tune@models[[6]],
 print(broad.resp.data)
 ```
 
-## 8. Model extrapolation
+## 9. Model prediction
+
+## n. Model extrapolation
 This is the part that was not done in the paper. But here we will project the fitted model to the environmental conditions of California. This is an ecologically meaningless exercise because A) L. rufozonatus is very unlikely to actually arrive in California, and B) environmental conditions of California is very different from that of East and Southeast Asia. But we will try this nonetheless to illustrate the risk of model transfer.
 
