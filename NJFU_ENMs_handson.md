@@ -10,7 +10,7 @@ Let's start our session by asking this question: Why run ENMs in R? After all, i
 
 This was okay at first, but it quicky became frustrating, and small inconsistencies between softwares really annoyed me. In addition, some of the published model evaluation strategies were simply not available in the MaxEnt GUI. So at that point I decided to learn how to run ENMs in R. I do not regret this decision one bit.
 
-This is my personal story, but also on a practical note, now there are TONS of ENM packages in R to choose from, and new ones are still being published. And the vast libraries of R means that you can do spreadsheet handling, GIS, modeling, plotting, and other associated analyese in one integrated environment. Also, since you are the one doing the coding, you can customize your workflow in a way that is most convenient to you. 
+This is my personal story, but also on a practical note, now there are TONS of ENM packages in R to choose from, and new ones are still being published. And the vast libraries of R means that you can do spreadsheet handling, GIS, modeling, plotting, and other associated analyses in one integrated environment. Also, since you are the one doing the coding, you can customize your workflow in a way that is most convenient to you. 
 
 #### In short, R provides a one-stop shop to prepare and organize your data, run ENMs, and make publication-quality plots with vast degree of flexibility. That is pretty cool, right?
 
