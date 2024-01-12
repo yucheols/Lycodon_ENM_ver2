@@ -21,7 +21,7 @@ Presence-background ENM algorithms require the presence and background datasets,
 
 The processes in rectangles are what I think of as the "key steps" - the steps I always go through when running ENMs, and the ones in grey ovals are what I call the "optional steps" - you can choose to run them or not depending on your research questions.
 
-Of course, this is an oversimplification of the whole process, and I'm sure there are multiple ways to visualize it. But at least these are the broad steps I think about as I run ENMs in R. There are multiple steps involved and it is easy to lose track in the codes, especially if you are just learning R and ENMs. So it always helps to have a simplified workflow. 
+Of course, this is an oversimplification of the whole process, and I'm sure there are multiple ways to visualize it. But at least these are the broad steps I think about as I run ENMs in R. There are multiple steps involved and it is easy to lose track in the codes, especially if you are just learning R and ENMs. So it always helps to have a simplified workflow as a reference. 
 
 
 #### Also, let us look at the data types needed to run ENMs and where to get them.....
