@@ -8,7 +8,8 @@ In the paper, the modeling was done at two different spatial scales ("Broad" and
 ## 1. Before we start: A (very) basic workflow of presence-background ENMs
 Presence-background ENM algorithms require the presence and background datasets, as well as environmental predictors, as inputs. Probably the most popular algorithm out there is MaxEnt, and it is the algorithm used here as well. Below is a very basic illustration of how the presence-background ENMs work. We will keep this workflow and its key steps in mind as we navigate the codes.  
 
-[PUT ILLUSTRATION HERE]
+![ENM_workflow](https://github.com/yucheols/Lycodon_ENM_ver2/assets/85914125/4afb2c4c-7576-4f1c-9bd3-ffc2a44863c3)
+
 
 #### An overview of data types and sources
 Below are some of the basic input data types for presence-background ENMs.
