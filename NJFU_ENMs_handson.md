@@ -6,6 +6,9 @@ Feb dd 2024
 In the paper, the modeling was done at two different spatial scales ("Broad" and "Narrow"). In this hands-on session, we will focus on the broad-scale modeling to illustrate the basic organization of the ENM workflow.
 
 ## 1. Before we start: Why run ENMs in R?
+Let's start our session by asking this question: Why run ENMs in R? After all, it seems pretty difficult (and indeed intimidating) to write codes to run the models instead of using other available softwares. At least that's how I felt when I started learning ENMs. So I started by running the MaxEnt Java software (MaxEnt GUI). It is a point-and-click sofware that is user-friendly and easy to use. It was great. But then there were some persistent issues I faced. First, I had to jump between three different softwares
+
+#### In short, R provides a one-stop shop to prepare and organize your data, run ENMs, and make publication quality plots with vast degree of flexibility.
 
 ## 2. A (very) basic workflow of presence-background ENMs
 Presence-background ENM algorithms require the presence and background datasets, as well as environmental predictors, as inputs. Probably the most popular algorithm out there is MaxEnt, and it is the algorithm used here as well. Below is a very basic illustration of how the presence-background ENMs work. We will keep this workflow and its key steps in mind as we navigate the codes.  
