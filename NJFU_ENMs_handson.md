@@ -10,6 +10,9 @@ Presence-background ENM algorithms require the presence and background datasets,
 
 [PUT ILLUSTRATION HERE]
 
+#### An overview of data types and sources
+1) Species occurrence data
+
 ## 2. Set up the working directory
 Before diving in, we need to setup an environment to run the codes.
 
