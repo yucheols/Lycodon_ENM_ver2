@@ -105,7 +105,7 @@ names(land) = c('cultivated', 'herb', 'shrubs', 'forest')
 ## 8. Response curves
 With SDMtune you can get a response curve for each variable using the "plotResponse()" function. But you may wish to further customize the plot for better visualization or publication. For that we can actually extract the data used to build response curves and customize the plot using ggplot2.
 
-To pull out the data though, we need to make a little work around because "plotResponse()" will automatically print out a finished plot. We can use this little wrapper function I've made (called "respDataPull") to extract data:
+To pull out the data though, we need to make a little work around because "plotResponse()" will automatically print out a finished plot. We can use this little wrapper function I've made (called "respDataPull()") to extract response data:
 
 ```r
 respDataPull <- function(model, var, type, only_presence, marginal, species_name) {
