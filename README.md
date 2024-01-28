@@ -8,7 +8,7 @@ A MaxEnt ecological niche modeling workflow in R to assess the habitat suitabili
 
 ## Study background
 - The Red-banded Snake (Lycodon rufozonatus) is a colubrid with broad geographic distribution across East and Southeast Asia.
-- In the Republic of Korea (South Korea), this species is commonly found across the mainland as well as some islands.
+- In the Republic of Korea (South Korea), this species is commonly found across the mainland as well as on some of the islands that are close to the mainland.
 - However, this species was well-known to be absent from the largest island of the country: Jeju. This was established by more than three decades of field surveys across South Korea.
 - In July 2021, we found a roadkill of L. rufozonatus while conducting field surveys in Seogwipo, Jeju Island.
 - As it was unlikely that this specimen represented a previously unknown island population, we determined its potential geographic origin through phylogenetic analyses of the mitochondrial COI and Cytb genes.
