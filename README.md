@@ -20,10 +20,10 @@ A MaxEnt ecological niche modeling workflow in R to assess the habitat suitabili
 - The environmental data layers can be obtained and processed using the details provided in the paper (see below for citation).
 
 ## Citation
-A research article associated with this project will be published in the March 2024 issue of Herpetologica.
+A research article associated with this project is published in the journal Herpetologica.
 
 ```
-Y Shin, K Heo, SN Othman, Y Jang, M-S Min, A Borzée. In press . Tracing the geographic origin of a non native Red
-banded Snake (Colubridae: Lycodon rufozonatus) found on Jeju Island, Republic of Korea. Herpetologica.
+Y Shin, K Heo, SN Othman, Y Jang, M-S Min, A Borzée. 2024. Tracing the geographic origin of a non native Red
+banded Snake (Colubridae: Lycodon rufozonatus) found on Jeju Island, Republic of Korea. Herpetologica 80: 30-39.
 ```
 
