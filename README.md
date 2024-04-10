@@ -5,6 +5,21 @@ A MaxEnt ecological niche modeling workflow in R to assess the habitat suitabili
 
 ![Fig4](https://github.com/yucheols/Lycodon_ENM_ver2/assets/85914125/3deff1f3-70c3-46c3-ae22-ace96ef00b84)
 
+## Software and package dependencies
+- R (version 4.2.2)
+- SDMtune (version 1.3.1)
+- ENMeval (version 2.0.4)
+- ecospat (version 4.0.0)
+- spThin (version 0.2.0)
+- MASS (version 7.3.58.2)
+- ntbox (version 0.6.6.6)
+- dplyr (version 1.1.0)
+- raster (version 3.6.14)
+- terra (version 1.7.65)
+- rgdal (version 1.6.4)
+- ggplot2 (version 3.4.1)
+- rasterVis (version 0.51.5)
+- extrafont (version 0.19)
 
 ## Study background
 - The Red-banded Snake (Lycodon rufozonatus) is a colubrid with broad geographic distribution across East and Southeast Asia.
