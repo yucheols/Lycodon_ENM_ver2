@@ -1,5 +1,5 @@
-# Ecological niche modeling for the Red-banded Snake (Lycodon rufozonatus)
-A MaxEnt ecological niche modeling workflow in R to assess the habitat suitability of Red-banded snakes (Lycodon rufozonatus) in Jeju Island, Republic of Korea.
+# Ecological niche modeling for the Red-banded Snake (*Lycodon rufozonatus*)
+A MaxEnt ecological niche modeling workflow in R to assess the habitat suitability of Red-banded snakes (*Lycodon rufozonatus*) in Jeju Island, Republic of Korea.
 
 ![cover](https://github.com/yucheols/Lycodon_ENM_ver2/assets/85914125/06b06949-4ca1-4504-a7c8-0a56e2cf880f)
 
@@ -22,15 +22,15 @@ A MaxEnt ecological niche modeling workflow in R to assess the habitat suitabili
 - extrafont (version 0.19)
 
 ## Study background
-- The Red-banded Snake (Lycodon rufozonatus) is a colubrid with broad geographic distribution across East and Southeast Asia.
+- The Red-banded Snake (*Lycodon rufozonatus*) is a colubrid with broad geographic distribution across East and Southeast Asia.
 - In the Republic of Korea (South Korea), this species is commonly found across the mainland as well as on some of the islands that are close to the mainland.
 - However, this species was well-known to be absent from the largest island of the country: Jeju. This was established by more than three decades of field surveys across South Korea.
-- In July 2021, we found a roadkill of L. rufozonatus while conducting field surveys in Seogwipo, Jeju Island.
+- In July 2021, we found a roadkill of *L. rufozonatus* while conducting field surveys in Seogwipo, Jeju Island.
 - As it was unlikely that this specimen represented a previously unknown island population, we determined its potential geographic origin through phylogenetic analyses of the mitochondrial COI and Cytb genes.
-- We then assessed the habitat suitability of L. rufozonatus in Jeju using ecological niche modeling. The code and dataset are provided here to reproduce the results of niche modeling.
+- We then assessed the habitat suitability of *L. rufozonatus* in Jeju using ecological niche modeling. The code and dataset are provided here to reproduce the results of niche modeling.
 
 ## Dataset
-- The "occs.zip" file contains the raw and spatially rarefied occurrence points (15km thinning distance) of L. rufozoantus.
+- The "occs.zip" file contains the raw and spatially rarefied occurrence points (15km thinning distance) of *L. rufozoantus*.
 - The "bg.zip" file contains two sets of background points for MaxEnt modeling at two different spatial scales.
 - The environmental data layers can be obtained and processed using the details provided in the paper (see below for citation).
 
